@@ -70,18 +70,18 @@ const Hero: React.FC = () => {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-8">
                 {/* Windows Download Button */}
                 <div className="relative dropdown-container">
-                  <button onClick={() => toggleDropdown("windows")} className="w-full max-w-[180px] bg-[#0D1117] hover:bg-[#161B22] text-white rounded-xl p-2 flex items-center justify-center transition-all duration-200 shadow-lg hover:shadow-md group">
+                  <button onClick={() => toggleDropdown("windows")} className="w-full max-w-[240px] bg-[#0D1117]/90 hover:bg-[#161B22] text-white rounded-2xl p-2.5 px-4 flex items-center justify-center transition-all duration-200 shadow-md hover:shadow-lg group">
                     <div className="flex items-center justify-between w-full">
                       <div className="flex items-center">
-                        <Windows className="h-5 w-5 text-[#4C6EF5] mr-2 flex-shrink-0" />
+                        <Windows className="h-5 w-5 text-[#4C6EF5] mr-3 flex-shrink-0" />
                         <div className="text-left">
-                          <div className="text-[10px] text-gray-400">Download for</div>
+                          <div className="text-[10px] text-gray-400">Download</div>
                           <div className="font-semibold text-sm">Windows</div>
                         </div>
                       </div>
                       <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${activeDropdown === "windows" ? "rotate-180" : ""}`} />
                     </div>
-                    <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none animate-rainbow-glow"></div>
+                    <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none animate-rainbow-glow"></div>
                   </button>
                   {activeDropdown === "windows" && (
                     <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-lg border border-neutral-200 overflow-hidden z-20">
@@ -99,18 +99,18 @@ const Hero: React.FC = () => {
 
                 {/* Mac Download Button */}
                 <div className="relative dropdown-container">
-                  <button onClick={() => toggleDropdown("mac")} className="w-full max-w-[180px] bg-[#0D1117] hover:bg-[#161B22] text-white rounded-xl p-2 flex items-center justify-center transition-all duration-200 shadow-lg hover:shadow-md group">
+                  <button onClick={() => toggleDropdown("mac")} className="w-full max-w-[240px] bg-[#0D1117]/90 hover:bg-[#161B22] text-white rounded-2xl p-2.5 px-4 flex items-center justify-center transition-all duration-200 shadow-md hover:shadow-lg group">
                     <div className="flex items-center justify-between w-full">
                       <div className="flex items-center">
-                        <Apple className="h-5 w-5 text-white mr-2 flex-shrink-0" />
+                        <Apple className="h-5 w-5 text-white mr-3 flex-shrink-0" />
                         <div className="text-left">
-                          <div className="text-[10px] text-gray-400">Download for</div>
+                          <div className="text-[10px] text-gray-400">Download</div>
                           <div className="font-semibold text-sm">Mac</div>
                         </div>
                       </div>
                       <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${activeDropdown === "mac" ? "rotate-180" : ""}`} />
                     </div>
-                    <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none animate-rainbow-glow"></div>
+                    <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none animate-rainbow-glow"></div>
                   </button>
                   {activeDropdown === "mac" && (
                     <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-lg border border-neutral-200 overflow-hidden z-20">
@@ -128,18 +128,18 @@ const Hero: React.FC = () => {
 
                 {/* Linux Download Button */}
                 <div className="relative dropdown-container">
-                  <button onClick={() => toggleDropdown("linux")} className="w-full max-w-[180px] bg-[#0D1117] hover:bg-[#161B22] text-white rounded-xl p-2 flex items-center justify-center transition-all duration-200 shadow-lg hover:shadow-md group">
+                  <button onClick={() => toggleDropdown("linux")} className="w-full max-w-[240px] bg-[#0D1117]/90 hover:bg-[#161B22] text-white rounded-2xl p-2.5 px-4 flex items-center justify-center transition-all duration-200 shadow-md hover:shadow-lg group">
                     <div className="flex items-center justify-between w-full">
                       <div className="flex items-center">
-                        <Linux className="h-5 w-5 text-[#FFD700] mr-2 flex-shrink-0" />
+                        <Linux className="h-5 w-5 text-[#FFD700] mr-3 flex-shrink-0" />
                         <div className="text-left">
-                          <div className="text-[10px] text-gray-400">Download for</div>
+                          <div className="text-[10px] text-gray-400">Download</div>
                           <div className="font-semibold text-sm">Linux</div>
                         </div>
                       </div>
                       <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${activeDropdown === "linux" ? "rotate-180" : ""}`} />
                     </div>
-                    <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none animate-rainbow-glow"></div>
+                    <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none animate-rainbow-glow"></div>
                   </button>
                   {activeDropdown === "linux" && (
                     <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-lg border border-neutral-200 overflow-hidden z-20">

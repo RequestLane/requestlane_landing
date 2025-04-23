@@ -115,13 +115,13 @@ export default {
           '100%': { borderColor: '#f87171' }, // back to red
         },
         rainbowGlow: {
-          '0%': { boxShadow: '0 0 0 1px rgba(248, 113, 113, 0.5)' }, // red
-          '16.67%': { boxShadow: '0 0 0 1px rgba(251, 146, 60, 0.5)' }, // orange  
-          '33.33%': { boxShadow: '0 0 0 1px rgba(250, 204, 21, 0.5)' }, // yellow
-          '50%': { boxShadow: '0 0 0 1px rgba(74, 222, 128, 0.5)' }, // green
-          '66.67%': { boxShadow: '0 0 0 1px rgba(96, 165, 250, 0.5)' }, // blue
-          '83.33%': { boxShadow: '0 0 0 1px rgba(167, 139, 250, 0.5)' }, // purple
-          '100%': { boxShadow: '0 0 0 1px rgba(248, 113, 113, 0.5)' }, // back to red
+          '0%': { boxShadow: '0 0 0 1px rgba(248, 113, 113, 0.2)' }, // red
+          '16.67%': { boxShadow: '0 0 0 1px rgba(251, 146, 60, 0.2)' }, // orange  
+          '33.33%': { boxShadow: '0 0 0 1px rgba(250, 204, 21, 0.2)' }, // yellow
+          '50%': { boxShadow: '0 0 0 1px rgba(74, 222, 128, 0.2)' }, // green
+          '66.67%': { boxShadow: '0 0 0 1px rgba(96, 165, 250, 0.2)' }, // blue
+          '83.33%': { boxShadow: '0 0 0 1px rgba(167, 139, 250, 0.2)' }, // purple
+          '100%': { boxShadow: '0 0 0 1px rgba(248, 113, 113, 0.2)' }, // back to red
         },
       },
     },
